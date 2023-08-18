@@ -1,0 +1,38 @@
+{
+	"name": "sca-react",
+	"version": "1.0.0",
+	"description": "Simple toolkit for web development",
+	"scripts": {
+		"rollup": "rollup -c"
+	},
+	"type": "module",
+	"keywords": [
+		"SCA.js",
+		"SCA React",
+		"sca-react"
+	],
+	"author": "sahanchinthaka04@gmail.com",
+	"license": "MIT",
+	"devDependencies": {
+		"@rollup/plugin-commonjs": "^25.0.4",
+		"@rollup/plugin-node-resolve": "^15.2.0",
+		"@rollup/plugin-typescript": "^11.1.2",
+		"@types/react": "^18.2.20",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"rollup": "^3.28.0",
+		"rollup-plugin-dts": "^6.0.0",
+		"tslib": "^2.6.1",
+		"typescript": "^5.1.6"
+	},
+	"peerDependencies": {
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0"
+	},
+	"main": "dist/cjs/index.js",
+	"module": "dist/esm/index.js",
+	"files": [
+		"dist"
+	],
+	"types": "dist/index.d.ts"
+}
