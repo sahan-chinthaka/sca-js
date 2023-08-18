@@ -1,5 +1,5 @@
 {
-	"name": "sca-react",
+	"name": "@sahan-chinthaka/sca",
 	"version": "1.0.0",
 	"description": "Simple toolkit for web development",
 	"scripts": {
@@ -34,5 +34,8 @@
 	"files": [
 		"dist"
 	],
-	"types": "dist/index.d.ts"
+	"types": "dist/index.d.ts",
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com/sahan-chinthaka"
+	}
 }
