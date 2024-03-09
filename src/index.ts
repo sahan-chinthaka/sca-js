@@ -1,2 +1,2 @@
-export * from "./components";
-export * from "./lib";
+export { AutoComplete } from "./components";
+export { SCA } from "./lib";
