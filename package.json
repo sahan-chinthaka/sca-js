@@ -1,12 +1,16 @@
 {
 	"name": "sca-js",
 	"version": "1.0.0",
-	"description": "ReactJS UI library",
+	"description": "ReactJS library",
 	"main": "dist/cjs/index.js",
 	"module": "dist/esm/index.js",
 	"files": [
 		"dist"
 	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/sahan-chinthaka/sca-js"
+	},
 	"scripts": {
 		"build": "rm -rf dist/ && npm run build:esm && npm run build:cjs",
 		"build:esm": "npx tsc",
